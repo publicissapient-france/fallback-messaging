@@ -1,0 +1,9 @@
+{
+  "name": "fallback-messaging",
+  "description": "",
+  "version": "0.0.1",
+  "dependencies": {
+    "rabbit.js": "0.4.2"
+  },
+  "engine": "node >= 0.10"
+}
