@@ -16,3 +16,6 @@ Check BEAM node and magic cookies.
 
 Ansible playbook:
 https://github.com/CharlesBlonde/ansible-rabbitmq
+
+Docker command:
+docker run  -d -e RABBITMQ_NODENAME=my-rabbit -p 5672:5672 -v /opt/rabbitmq/:/var/lib/rabbitmq --name test-rabbit rabbitmq:3.4.4
